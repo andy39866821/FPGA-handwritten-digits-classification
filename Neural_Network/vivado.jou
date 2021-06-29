@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Sep 13 20:37:59 2020
+# Process ID: 10540
+# Current directory: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9784 C:\Users\andy3\Desktop\fpga-handwritten-number-classification-neural-network\Neural_Network\Neural_Network.xpr
+# Log file: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/vivado.log
+# Journal file: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+add_files -norecurse -scan_for_includes C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/temp.v
+import_files -norecurse C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/temp.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.srcs/sources_1/bd/design_1/design_1.bd
+file delete -force C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.srcs/sources_1/bd/design_1

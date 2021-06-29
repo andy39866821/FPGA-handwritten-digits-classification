@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Neural_Network.srcs/sources_1/ip/blk_mem_gen_number_784/sim/blk_mem_gen_number_784.v" \
+"../../../../Neural_Network.srcs/sources_1/ip/blk_mem_gen_hidden_layer_weight_65x10/sim/blk_mem_gen_hidden_layer_weight_65x10.v" \
+"../../../../Neural_Network.srcs/sources_1/ip/blk_mem_gen_input_layer_weight_785x64/sim/blk_mem_gen_input_layer_weight_785x64.v" \
+"../../../../../code/fixed_point_ADD.v" \
+"../../../../../code/fixed_point_MUL.v" \
+"../../../../../code/testing.v" \
+"../../../../../code/testing_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

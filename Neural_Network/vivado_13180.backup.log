@@ -1,0 +1,190 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Aug 15 14:17:08 2020
+# Process ID: 13180
+# Current directory: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11432 C:\Users\andy3\Desktop\NeuralNetwork\Neural_Network\Neural_Network.xpr
+# Log file: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/vivado.log
+# Journal file: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.641 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Aug 15 14:26:35 2020] Launched synth_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/synth_1/runme.log
+[Sat Aug 15 14:26:35 2020] Launched impl_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Aug 15 14:28:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/synth_1/runme.log
+[Sat Aug 15 14:28:28 2020] Launched impl_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1266.969 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 758 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.672 . Memory (MB): peak = 1837.684 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.673 . Memory (MB): peak = 1837.684 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1837.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 1956.156 ; gain = 834.105
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Aug 15 14:57:40 2020] Launched synth_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/synth_1/runme.log
+[Sat Aug 15 14:57:40 2020] Launched impl_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 2054.301 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 758 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.661 . Memory (MB): peak = 2054.301 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.662 . Memory (MB): peak = 2054.301 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2054.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+close_design
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-09:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2212.582 ; gain = 0.000
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711385A
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_hw_manager
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Write_Depth_A {784}] [get_ips blk_mem_gen_canvas]
+generate_target all [get_files  C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_canvas/blk_mem_gen_canvas.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_canvas'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_canvas'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_canvas'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_canvas'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_canvas'...
+export_ip_user_files -of_objects [get_files C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_canvas/blk_mem_gen_canvas.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_canvas/blk_mem_gen_canvas.xci] -directory C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.ip_user_files -ipstatic_source_dir C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.cache/compile_simlib/modelsim} {questa=C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.cache/compile_simlib/questa} {riviera=C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.cache/compile_simlib/riviera} {activehdl=C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Aug 15 15:19:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/synth_1/runme.log
+[Sat Aug 15 15:19:28 2020] Launched impl_1...
+Run output will be captured here: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-09:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3287.066 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711385A
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 16:08:34 2020...

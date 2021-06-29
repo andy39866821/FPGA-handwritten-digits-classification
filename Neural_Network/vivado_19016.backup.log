@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Aug 22 23:51:52 2020
+# Process ID: 19016
+# Current directory: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21716 C:\Users\andy3\Desktop\NeuralNetwork\Neural_Network\Neural_Network.xpr
+# Log file: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/vivado.log
+# Journal file: C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 963.414 ; gain = 0.000
+update_compile_order -fileset sources_1

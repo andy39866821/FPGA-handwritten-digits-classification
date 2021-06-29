@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_number_784/sim/blk_mem_gen_number_784.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_number_784
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_hidden_layer_weight_65x10/sim/blk_mem_gen_hidden_layer_weight_65x10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_hidden_layer_weight_65x10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/Neural_Network/Neural_Network.srcs/sources_1/ip/blk_mem_gen_input_layer_weight_785x64/sim/blk_mem_gen_input_layer_weight_785x64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_input_layer_weight_785x64
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/code/fixed_point_ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fixed_point_ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/code/fixed_point_MUL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fixed_point_MUL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/code/testing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nn_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/andy3/Desktop/NeuralNetwork/code/testing_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tb

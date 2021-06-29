@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Aug 26 15:50:17 2020
+# Process ID: 14768
+# Current directory: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15364 C:\Users\andy3\Desktop\fpga-handwritten-number-classification-neural-network\Neural_Network\Neural_Network.xpr
+# Log file: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/vivado.log
+# Journal file: C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.xpr
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/andy3/Desktop/fpga-handwritten-number-classification-neural-network/Neural_Network/Neural_Network.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
